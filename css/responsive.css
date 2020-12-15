@@ -1,0 +1,121 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .responsive-menu-wrep {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        margin-top: -10px;
+    }
+    .slicknav_btn {
+        background-color: #ff817e;
+    }
+    .slicknav_menu {
+        font-size: 21px;
+        background: none;
+        padding-right: 22px;
+    }
+    .slicknav_nav a {
+        color: #ff817e;  
+        background-color: slategrey;
+    }
+
+}
+ /* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .sec-heading .sec-title {
+        font-size: 33px;
+    }
+
+    .primary-menu .mobile-menu,
+    .footer .foo-nav .mobile-menu {
+        color: #ff817e;
+        display: block;
+        font-size: 18px;
+        position: absolute;
+        right: 0;
+        top: -30px;
+    }
+     .primary-menu ul,
+     .footer .foo-nav ul {
+         background-color: #fcf5ee;
+         display: none;
+         text-align: center;
+         padding: 10px 0;
+     }
+
+     .primary-menu li a,
+     .footer .foo-nav li a {
+         padding: 10px 15px;
+     }
+     .banner {
+         padding-top: 130px;
+     }
+       .banner .spa-img {
+           display: none;
+       }
+       .responsive-menu-wrep {
+           display: block;
+           position: absolute;
+           top: 50%;
+           right: 0;
+           margin-top: -15px;
+       }
+       .slicknav_btn {
+           background-color: #ff817e;
+       }
+       .slicknav_menu {
+           font-size: 21px;
+           background:none;
+           padding-right: 22px;
+       }
+       .slicknav_nav a {
+           color: #ff817e;
+           background-color: slategrey;
+       }
+}
+    
+ /* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .nopadd-ltf {
+        padding-left: 0;
+    }
+
+    .nopadd-rth {
+        padding-right: 0;
+    }
+
+    .nopadd {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .primary-menu li,
+    .footer .foo-nav li {
+        display: inline-block;
+    }
+    .banner h2 {
+        font-size: 44px;
+        line-height: 60px;
+    }
+}
+ /* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+ .banner {
+     padding-top: 13%;
+ }
+ .banner h2 {
+     font-size: 49px;
+     line-height: 60px;
+ }
+
+}
+    
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98){
+         
+}
+/* Extra Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1400px) {
+
+}
